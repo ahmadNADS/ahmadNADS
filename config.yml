@@ -1,0 +1,144 @@
+baseURL: http://ahmadnaofficial.github.io/
+languageCode: en-us
+title: Ahmad.NADS
+theme: PaperMod
+paginate: 2
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+  disableXML: true
+
+languages: 
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies: 
+      category: categories
+      tag: tags
+      series: series
+    menu: 
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+  ar:
+    langagueName: ":ar:"
+    languageAltTitle: Arabic
+    weight: 2
+    title: مدونة أحمد المطاوعه
+    taxonomies:
+      category: ARcatagories
+      tag: ARtags
+      series: ARseries
+    profileMode: 
+      enabled: true
+      title: مدونة أحمد المطاوعه
+      buttons: 
+        - name: المدونة
+          url: posts
+    menu:
+      main:
+        - name: اراشيف
+          url: archives
+          weight: 5
+        - name: التعليمات
+          url: artags
+          weight: 10
+        - name: التصنيفات
+          url: arcategories
+          weight: 10
+        - name: السلاسل
+          url: arseries
+          weight: 10
+        # - name: NullLink
+        #   url: "#"  
+
+outputs: 
+  home:
+    - HTML
+    - RSS
+    # - JSPN
+
+params:
+  env: production
+  description: " A personal blog where I post anything regarding data science and programming."
+  author: Ahmed Almotawah
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: false
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  comments: false
+
+  profileMode:
+    enabled: false
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth:
+    # imageHeight:
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+  homeInfoParams:
+    Title: "Ahmad.NADS"
+    Content: >
+      Hello! Welcome to my Personal Blog! 
+      Here you can read my writings regarding data science, programming and tech!
+  socialIcons:
+    - name: github
+      url: "https://github.com/ahmadNADS"
+    - name: twitter
+      url: "https://twitter.com/AhmedNasser_DS"
+  assets:
+    disableHLJS: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
+  

@@ -40,8 +40,8 @@ languages:
     weight: 2
     title: مدونة أحمد المطاوعه
     taxonomies:
-      category: ARcatagories
-      tag: ARtags
+      # category: ARcatagories
+      tag: التاغس
       series: ARseries
     profileMode: 
       enabled: true
@@ -51,16 +51,18 @@ languages:
           url: posts
     menu:
       main:
+        - name: بحث
+          url: search
         - name: اراشيف
           url: archives
           weight: 5
-        - name: التعليمات
+        - name: التصنيفات
           url: artags
           weight: 10
-        - name: التصنيفات
-          url: arcategories
+        # - name: التصنيفات
+        #   url: arcategories
           weight: 10
-        - name: السلاسل
+        - name: السلسلات
           url: arseries
           weight: 10
         # - name: NullLink

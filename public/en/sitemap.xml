@@ -3,10 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://ahmadnaofficial.github.io/</loc>
+    <lastmod>2022-12-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="http://ahmadnaofficial.github.io/fr/"
+                hreflang="ar"
+                href="http://ahmadnaofficial.github.io/ar/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -14,9 +15,53 @@
                 href="http://ahmadnaofficial.github.io/"
                 />
   </url><url>
-    <loc>http://ahmadnaofficial.github.io/categories/</loc>
+    <loc>http://ahmadnaofficial.github.io/posts/introduction/</loc>
+    <lastmod>2022-12-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://ahmadnaofficial.github.io/posts/</loc>
+    <lastmod>2022-12-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://ahmadnaofficial.github.io/ar/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://ahmadnaofficial.github.io/posts/"
+                />
   </url><url>
     <loc>http://ahmadnaofficial.github.io/series/</loc>
+    <lastmod>2022-12-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://ahmadnaofficial.github.io/series/website-development/</loc>
+    <lastmod>2022-12-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://ahmadnaofficial.github.io/archives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://ahmadnaofficial.github.io/ar/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://ahmadnaofficial.github.io/archives/"
+                />
+  </url><url>
+    <loc>http://ahmadnaofficial.github.io/categories/</loc>
+  </url><url>
+    <loc>http://ahmadnaofficial.github.io/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://ahmadnaofficial.github.io/ar/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://ahmadnaofficial.github.io/search/"
+                />
   </url><url>
     <loc>http://ahmadnaofficial.github.io/tags/</loc>
   </url>

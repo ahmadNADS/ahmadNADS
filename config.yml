@@ -91,10 +91,10 @@ params:
 
   profileMode:
     enabled: false
-    imageUrl: "#"
-    imageTitle: my image
-    # imageWidth:
-    # imageHeight:
+    imageUrl: "/static/gen-pic/logo.png"
+    imageTitle: logo
+    imageWidth: 240
+    imageHeight: 240
     buttons:
       - name: Archives
         url: archives

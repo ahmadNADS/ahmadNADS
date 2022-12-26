@@ -41,7 +41,7 @@ languages:
     title: مدونة أحمد المطاوعه
     taxonomies:
       # category: ARcatagories
-      tag: التاغس
+      tag: ARtags
       series: ARseries
     profileMode: 
       enabled: true

@@ -110,7 +110,7 @@ params:
     - name: github
       url: "https://github.com/ahmadNADS"
     - name: twitter
-      url: "https://twitter.com/AhmedNasser_DS"
+      url: "https://twitter.com/Ahmad_NADS"
   assets:
     disableHLJS: true
 markup:

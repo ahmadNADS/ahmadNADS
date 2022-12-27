@@ -111,6 +111,8 @@ params:
       url: "https://github.com/ahmadNADS"
     - name: twitter
       url: "https://twitter.com/Ahmad_NADS"
+    - name: linkedin
+      url: https://www.linkedin.com/in/ahmed-almotawah-9a5828247/
   assets:
     disableHLJS: true
 markup:
